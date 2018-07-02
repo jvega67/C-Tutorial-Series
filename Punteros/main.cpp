@@ -106,7 +106,7 @@ int main()
     pm = new int* [rows];
     for (int i = 0; i < rows; i++) {
         pm[i] = new int[cols];
-    }
+    } 
 
     cout << "Elementos de la Matriz con sus direcciones: " << endl;
     for (int i = 0; i < rows; i++) {
